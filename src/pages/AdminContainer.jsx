@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { fetchAllUsersApi, deleteUserApi } from "../api/admin";
 import AdminTable from "../components/AdminTable";
-import ModalEdit from "../components/ModalEdit";
+import ModalEdit from "../components/Modaledit";
 import ConfirmDeleteModal from "../components/ModalDelete";
 import toast from "react-hot-toast";
 import SkeletonTable from "../components/SkeletonTable";
